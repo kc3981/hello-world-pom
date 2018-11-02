@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <MktBanners>
+    <imgPath>6505467</imgPath>
+    <vidPath>6506504</vidPath>
+    <aniPath><![CDATA[https://webassistants.partcommunity.com/23d-libs/us_configurator/sa2/dme/index.html?info=dme/product_structure/mold_components/part_ejection_components/ejector_pins/ex.prj&values=CN=EX-9|M=M-10|GSIZE=STANDARD SIZE&username=ECommerceUser&email=EComm@dme.net]]></aniPath>
+  </MktBanners>
+  <MainBanner><![CDATA[6506508]]></MainBanner>
+  <MainBannerLink><![CDATA[http://store.milacron.com/]]></MainBannerLink>
+  <Tab>
+    <TabShortName DataType="String"><![CDATA[EX Ejector Pins]]></TabShortName>
+    <TabFullName DataType="String"><![CDATA[EX Ejector Pins]]></TabFullName>
+    <Content DataType="String">
+      <![CDATA[<strong>DME EX Ejector Pins</strong><br /><p>DME EX Ejector Pins consistently meet the most rigid injection molding standards to ensure that product reliability and performance are achieved at a high level. With a variety of over 200 standard EX pins in-stock same day shipping of your order is our goal. Are every day, challenging new applications and materials are forcing you to develop creative new tooling? DME is here to help with comprehensive capabilities for manufacturing custom pins - quickly and cost-effectively.</p> <p>DME EX Ejector Pins consistently meet the most rigid injection molding standards to ensure that product reliability and performance are achieved at a high level. With a variety of over 200 standard EX pins in-stock same day shipping of your order is our goal. Are every day, challenging new applications and materials are forcing you to develop creative new tooling? DME is here to help with comprehensive capabilities for manufacturing custom pins - quickly and cost-effectively.</p>]]>
+    </Content>
+  </Tab>
+  <Tab>
+    <TabShortName DataType="String">Features and Benefits</TabShortName>
+    <TabFullName DataType="String">Features and Benefits</TabFullName>
+    <Content DataType="String">
+      <![CDATA[
+          <li>Precision made of superior quality, H13 type, thermal, shock-resisting hotwork die steel </li>
+    		  <li>Hot-forged heads provide uniform grain flow, higher tensile strength </li>
+          <li>Core hardness 40-45 HRC </li>
+          <li>Outside diameter nitrided to 65-74 HRC hardness and finished to minimize wear  </li>
+          <li>Heads annealed for easy machining </li>
+          <li>Centerless ground D diameter </li>
+      ]]>
+    </Content>
+  </Tab>
+  <Tab>
+    <TabShortName DataType="String">Technical Resources</TabShortName>
+    <TabFullName DataType="String">Technical Resources</TabFullName>
+    <Content>
+    	<![CDATA[
+    		<li><a href="https://na.dmecompany.com/PinsSleeves/Default.aspx" target="_new" >Special Pins, Sleeves &amp; Blades Quote Request Form</a></li>
+    		<li><a href="https://webassistants.partcommunity.com/23d-libs/us_configurator/sa2/dme/index.html?info=dme/product_structure/mold_components/part_ejection_components/ejector_pins/ex.prj&username=ECommerceUser&email=EComm@dme.net" target="_new" >CAD</a></li>
+    		<li><a href="http://www.dme.net/catalog/DME/Mold%20Components/Mold%20Components/assets/basic-html/page-1.html" target="_new" >Catalog Page</a></li>
+    		<li><a href="http://www.dme.net/sites/default/files/msds-sheets/Ejector%20-%20Core%20-%20Return%20-%20Sprue%20Puller%20Pins-SleevesDMErdinsejctpins-msds.pdf" target="_new" >MSDS</a></li>
+    	]]>
+    </Content>
+  </Tab>
+</root>

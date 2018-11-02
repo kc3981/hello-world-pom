@@ -1,0 +1,121 @@
+[ 
+{
+  "ajaxHandler" : "no service",
+  "attributeName" : "DISCOUNT",  
+  "attributeId" : 4,
+  "filterLookup" : true,
+  "filterType" : "BETWEEN",
+  "filterId" : 3,
+  "advanceFilterValues" : [ ],
+  "values" : [ "--Select--", "percentage" ],
+  "sequence" : 1
+},{
+  "ajaxHandler" : "no service",
+  "attributeName" : "DISCOUNT123",  
+  "attributeId" : 7,
+  "filterLookup" : true,
+  "filterType" : "BETWEEN",
+  "filterId" : 3,
+  "advanceFilterValues" : [ ],
+  "values" : [ "--Select--", "percentage" ],
+  "sequence" : 1
+}, {
+  "ajaxHandler" : "no service",
+  "attributeName" : "WEIGHT",
+  "attributeId" : 1,
+  "filterLookup" : true,
+  "filterType" : "DROPDOWN",
+  "filterId" : 1,
+  "advanceFilterValues" : [ {
+    "attributeUom" : "",
+    "attributeValue" : "--Select--",
+    "attributeWithUomValue" : "--Select--"
+  }, {
+    "attributeUom" : "gallon",
+    "attributeValue" : "600",
+    "attributeWithUomValue" : "600 gallon"
+  }, {
+    "attributeUom" : "kg",
+    "attributeValue" : "300",
+    "attributeWithUomValue" : "300 kg"
+  }, {
+    "attributeUom" : "kg",
+    "attributeValue" : "500",
+    "attributeWithUomValue" : "500 kg"
+  } ],
+  "values" : [ ],
+  "sequence" : 2
+},
+
+ {
+  "ajaxHandler" : "no service",
+  "attributeName" : "WEIGHT_TMP",
+  "attributeId" : 10,
+  "filterLookup" : true,
+  "filterType" : "DROPDOWN",
+  "filterId" : 1,
+  "advanceFilterValues" : [ {
+    "attributeUom" : "",
+    "attributeValue" : "--Select--",
+    "attributeWithUomValue" : "--Select--"
+  }, {
+    "attributeUom" : "gallon",
+    "attributeValue" : "600",
+    "attributeWithUomValue" : "600 gallon"
+  }, {
+    "attributeUom" : "kg",
+    "attributeValue" : "300",
+    "attributeWithUomValue" : "300 kg"
+  }, {
+    "attributeUom" : "kg",
+    "attributeValue" : "500",
+    "attributeWithUomValue" : "500 kg"
+  } ],
+  "values" : [ ],
+  "sequence" : 2
+},
+ {
+  "ajaxHandler" : "",
+  "attributeName" : "LENGTH",
+  "attributeId" : 2,
+  "filterLookup" : true,
+  "filterType" : "BETWEEN",
+  "filterId" : 3,
+  "advanceFilterValues" : [ ],
+  "values" : [ "--Select--", "mm", "cm" ],
+  "sequence" : 3
+}, {
+  "ajaxHandler" : "",
+  "attributeName" : "CUSTOM SEARCH",
+  "attributeId" : 5,
+  "filterLookup" : false,
+  "filterType" : "CUSTOM_SEARCH",
+  "filterId" : 4,
+  "advanceFilterValues" : [{
+    "attributeUom" : "",
+    "attributeValue" : "0",
+    "attributeWithUomValue" : "Select"
+  },{
+    "attributeUom" : "",
+    "attributeValue" : "part_number",
+    "attributeWithUomValue" : "Part Number"
+  },
+  {
+    "attributeUom" : "",
+    "attributeValue" : "ENGINEERING_DESCRIPTION",
+    "attributeWithUomValue" : "Engineering Description"
+  } ],
+  "values" : [],
+  "sequence" : 4
+},
+{
+  "ajaxHandler" : "no service",
+  "attributeName" : "DISCOUNT",  
+  "attributeId" : 3,
+  "filterLookup" : true,
+  "filterType" : "CHECKBOX",
+  "filterId" : 2,
+  "advanceFilterValues" : [ ],
+  "values" : [ ],
+  "sequence" : 1
+}]

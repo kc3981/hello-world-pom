@@ -1,0 +1,75 @@
+
+@media ( min-width : 300px) and (max-width: 699px) {
+	.modal-quotes .modal-dialog {
+		width: auto;
+	}
+	.modal-quotes .btn-default{
+	    margin-top: 15px;
+	    margin-left: 15px;
+	}
+}
+
+.modal-quotes label {
+	margin-top: 5px;
+}
+
+.modal-quotes input {
+	width: 200px;
+}
+
+.modal-quotes .form-control {
+	border-radius: 0;
+}
+
+.modal-quotes input, .modal-quotes select {
+	width: 100%;
+}
+
+.modal-quotes .btn-default {
+	/*background: #c80000;*/
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.modal-quotes .btn-default:hover {
+	/*background: #c80000;*/
+	color: #fff;
+}
+
+#myModalLabel {
+	color: #fff;
+}
+
+.modal-quotes .modal-header {
+	/*background: #c80000;*/
+	color: #fff;
+}
+
+.modal-quotes .close {
+	background: none;
+	color: #fff;
+	font-size: 23px;
+	opacity: 1;
+	margin-top: 5px;
+}
+
+.modal-quotes label {
+	color: #444;
+}
+
+.table {
+	margin-top: 30px;
+	color: #444;
+}
+
+.modal {
+	overflow-y: auto;
+}
+
+.modal-open {
+	overflow: auto;
+}
+
+.modal-open[style] {
+	padding-right: 0px !important;
+}

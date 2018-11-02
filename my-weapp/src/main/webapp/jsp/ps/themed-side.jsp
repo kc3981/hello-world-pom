@@ -1,0 +1,1 @@
+<div class="themed-side branding-sidebar"></div>

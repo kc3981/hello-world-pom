@@ -1,0 +1,1054 @@
+/*******************This includes media queries for the pages ****************************/
+
+/*==================================================
+    =            Bootstrap 3 Media Queries             =
+    ==================================================*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width:992px) and (max-width : 1200px) {
+	.responsive-padding {
+		/* padding-left: 5px;
+		padding-right: 5px; */
+	}
+
+	/********** Footer ******************/
+	div.copyright p {
+		margin-left: 0px;
+	}
+	/********** Media documents ******************/
+	.media-desc {
+		width: 80%;
+	}
+
+	/********** Edit Quote ******************/
+	.form-horizontal .control-label {
+		text-align: left;
+		padding-left: 0px;
+	}
+
+	/********** Header **************/
+	.brand>img {
+		margin-left: 10px;
+	}
+	.brand {
+		right: 15px;
+		margin-top: 17px;
+		text-align: center;
+	}
+	a.cartbutton {
+		float: left !important;
+	}
+	.header-links {
+		padding: 0px 15px;
+	}
+	.main-menu nav ul li a {
+		min-width: 145px;
+		width: auto;
+		text-align: center;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	/********** Create order from cart init *****************/
+	#chargeSymbol {
+		text-align: right;
+	}
+	.no-padding-md {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	div.attach-file-section {
+		margin: 15px 15px 0px;
+	}
+	/**********My vehicle*****************/
+	.search-parts-templates.whereusedBox {
+		width: 31%;
+		margin: 0 1% 5px;
+	}
+	/********* direct order ******************/
+	/* .directorder-spinner.spinner-control{
+        margin-top: 50px;
+       } */
+	.header-links-md {
+		padding: 10px 15px;
+	}
+
+	/******** My Vehicle ***********/
+	.search-parts-templates .machine-details {
+		width: 55%;
+	}
+
+	/********* Search result ********/
+	a.clear-search>i {
+		top: 10px;
+		right: 60px;
+		font-size: 25px;
+	}
+	/********* Shop for Parts ********/
+	.spinner-control a.item-decrement, .spinner-control a.item-increment {
+		width: 23px;
+		height: 22px;
+		line-height: 22px;
+	}
+	.spinner-control input {
+		height: 44px;
+	}
+	.spinner-control {
+		/*margin-top: 30px;*/
+		
+	}
+	.cart-small {
+		height: 30px;
+	}
+
+	/********* Machine Catalog ***********/
+	nav#menu {
+		width: 40%;
+	}
+	#page {
+		width: 60%;
+	}
+	/********* Cart **********/
+	.quote-button, .order-button {
+		width: 98%;
+	}
+	.checkout-footer .btn {
+		padding: 5px 4px;
+	}
+	.upsell-unit {
+		/* left: 100px!important;
+        bottom: 70px!important; 
+		padding-left: 28px;*/
+		position: relative;
+	}
+	.dropdown {
+		max-width: 400px;
+		width: 400px;
+	}
+}
+
+@media ( max-width : 1199px) {
+	#address {
+		margin-bottom: 10px !Important;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width:768px) and (max-width : 991px) {
+	.upsell-img-wrapper .no-image {
+		width: 110px;
+	}
+	
+	.block h3 {
+		margin-top: 10px !important;
+	}
+	#resultInfo {
+		z-index: 999;
+	}
+	.quick-search-hldr::-webkit-input-placeholder {
+		font-size: 12px;
+	}
+	.quick-search-hldr::-moz-placeholder {
+		font-size: 12px;
+	}
+	.quick-search-hldr:-ms-input-placeholder {
+		font-size: 12px;
+	}
+	.quick-search-hldr:-moz-placeholder {
+		font-size: 12px;
+	}
+	.breadcrumb>.active, .breadcrumb>li a {
+		font-size: 13px !important;
+	}
+	.owl-controls {
+		display: block;
+	}
+	.responsive-padding {
+		/*padding-left: 5px;
+        padding-right: 5px;*/
+		
+	}
+	/*********** Quotes ******************/
+	.padd-right40 {
+		padding-right: 20px;
+	}
+	.dataTables_length {
+		display: none;
+	}
+	#quote-list_filter {
+		width: 100% !important;
+	}
+	div.dataTables_filter input {
+		margin-left: 0.4em !important;
+	}
+	/********** Footer ******************/
+	div.copyright p {
+		/* margin-left: 10px; */
+		
+	}
+	/********** create Quote ******************/
+	div.attach-file-section {
+		margin: 15px 0px 0px;
+	}
+	.form-inline .form-control {
+		margin-left: 0px;
+	}
+	/*********** Header *******************/
+	.brand {
+		text-align: center;
+		right: 0;
+	}
+	a.cartbutton {
+		float: left !important;
+	}
+	.header-links {
+		padding: 0px 15px;
+	}
+	.main-menu nav ul li a {
+		min-width: 105px;
+		width: auto;
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.searchbar a.btn {
+		margin-right: 0px;
+	}
+	.dropdown {
+		max-width: 400px;
+	}
+	/************ Place Order *********************************/
+	.no-padding-md {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.nopadding-sm {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.inline-sm {
+		display: block;
+	}
+
+	/************ Cart Page *********************************/
+	.upsell-details {
+		max-height: 200px;
+	}
+
+	/**********My vehicle*****************/
+	.search-parts-templates.whereusedBox {
+		width: 31%;
+		margin: 0 1% 5px;
+	}
+	.search-parts-templates .machine-details {
+		width: 55%;
+	}
+	/********* direct order ******************/
+	div[data-input-width="width"] {
+		display: inline-block !important;
+	}
+	div[data-input-width="width"]>input.customerNoInput {
+		min-width: 245px !important;
+	}
+	.contactEmail-label, .contactName-label {
+		margin-top: 15px;
+	}
+	.ui-autocomplete {
+		width: 462px;
+	}
+	div.attach-file-section {
+		margin: 15px 5px 0 0;
+	}
+
+	/********* edit quote ******************/
+	div.contactName, div.contactEmail {
+		display: block;
+	}
+	.form-horizontal .control-label {
+		text-align: left;
+		padding-left: 0px;
+	}
+
+	/*********************** Full item details **********************************/
+	div.otherDetails-content>h5 {
+		padding: 0 6px;
+	}
+	div.otherDetails-content>p {
+		padding: 0 6px;
+	}
+	/********** Shop for parts ******************/
+	.erp-price-avail .btn-addtocart {
+		margin-bottom: 10px;
+	}
+	button[data-btn-type="addtocart-click"], button[data-btn-type="addtocart"]
+		{
+		min-width: 193px;
+	}
+	.details-leftpart {
+		border-right: 1px dashed #999;
+		padding-right: 112px;
+		width: 50%;
+		word-wrap: break-word;
+	}
+	.cart-small {
+		height: 30px;
+	}
+	.spinner-control a.item-decrement, .spinner-control a.item-increment {
+		width: 23px;
+		height: 22px;
+		line-height: 22px;
+	}
+	.spinner-control input {
+		height: 44px;
+	}
+	.spinner-control {
+		/* margin-top: 30px; */
+	}
+	/********** Search result *****************/
+	.allResultContent #Content {
+		/* width: 50%;*/
+		
+	}
+	.allResultContent #imagesample {
+		/*width: 30%;*/
+		
+	}
+	a.clear-search>i {
+		top: 10px;
+		right: 60px;
+		font-size: 22px;
+	}
+	/********** Breadcrumb ****************/
+	.breadcrumb>.active, .breadcrumb>li a {
+		font-size: 15px;
+	}
+
+	/********* Machine Catalog ***********/
+	nav#menu {
+		width: 45%;
+	}
+	#page {
+		width: 100%;
+	}
+	.media-panel {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#datatable-list_wrapper .table>thead>tr>th {
+		white-space: normal;
+	}
+	/********* Cart **********/
+	.quick-search-popover {
+		padding: 0px 0px 0px 15px;
+	}
+	.get-quote {
+		padding-left: 0px;
+	}
+	.upsell-unit {
+		/* left: 80px!important;
+        bottom: 70px!important; */
+		
+	}
+	.upsellAdd {
+		width: 100px;
+	}
+
+	/******** Forgot Password ********/
+	#forgot-password-form .intl-tel-input {
+		min-width: 100%;
+	}
+	.overlay-header {
+		height: 208px;
+		/*background: url("../images/768x200 E-Store LoginPage iPad.jpg") no-repeat scroll 0 0 / cover ;*/
+		color: #000;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width : 1199px) {
+	.brand {
+		margin-top: 0px;
+		left: 12px;
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width:480px) and (max-width : 767px) {
+		.nopadding-xs {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		.text-center-xs {
+			text-align: center;
+		}
+		#treeCatalog, .treeview-hldr {
+			margin-right: 0px;
+		}
+		.responsive-padding {
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		#brandBox>.column-paddings {
+			padding: 10px 0;
+		}
+		/********** Shop for Parts ******************/
+		.cart-details>div {
+			margin: 10px 0px;
+		}
+		.spinner-control {
+			margin-top: 0px;
+		}
+		a.image-container {
+			display: inline-block;
+			width: 90%;
+		}
+		.cart-small {
+			height: 30px;
+		}
+		.spinner-control a.item-decrement, .spinner-control a.item-increment {
+			width: 23px;
+			height: 22px;
+			line-height: 22px;
+		}
+		.spinner-control input {
+			height: 44px;
+		}
+		.spinner-control {
+			margin-top: 30px;
+		}
+		/********** Edit Quote ******************/
+		.form-horizontal .control-label {
+			text-align: left;
+		}
+
+		/********** Search Result ******************/
+		.left-align-xs {
+			text-align: left;
+		}
+		.right-align-xs {
+			text-align: right;
+		}
+		.btn.cart-small {
+			height: 40px;
+			font-size: 18px;
+		}
+		.allResultContent #Content {
+			/* width: 50%;*/
+			
+		}
+		.allResultContent #imagesample {
+			width: 30%;
+		}
+		a.clear-search>i {
+			top: 10px;
+			right: 60px;
+			font-size: 25px;
+		}
+		/*********** Header ******************/
+		header {
+			height: 80px;
+		}
+		.user {
+			height: 80px;
+		}
+		.brand {
+			height: auto;
+			margin-top: 0px;
+		}
+		.brand>img {
+			margin: -50px 10px 0px 50px;
+			width: 70px;
+		}
+		.sidebar-button {
+			margin-left: 10px;
+			padding-top: 40px;
+		}
+		.caret-big {
+			margin-left: 0px;
+			padding: 8px 5px 8px 15px;
+		}
+		.cart-popover-xs::after {
+			left: 34%;
+			top: 6px;
+		}
+		.cart-popover-xs {
+			top: 50px;
+		}
+		.cart-popover-xs>.quick-search-cart {
+			margin-top: 15px;
+		}
+		/********* direct order ******************/
+		.directorder-spinner.spinner-control {
+			margin-top: 33px;
+		}
+		/********* Cart popover ******************/
+		.cart-popover::after, .cart-popover-xs::after {
+			left: 35%;
+		}
+		.cart-popover, .cart-popover-xs {
+			right: 5px;
+			top: -22px;
+			z-index: 9999;
+		}
+		/*********************** Full item details **********************************/
+		div.otherDetails-content>h5 {
+			padding: 0 6px;
+		}
+		div.otherDetails-content>p {
+			padding: 0 6px;
+		}
+		/********** Shop for parts ******************/
+		.erp-price-avail .btn-addtocart {
+			margin-bottom: 10px;
+		}
+
+		/********** My vehicle *****************/
+		.search-parts-templates .machine-details {
+			width: 55%;
+		}
+		#datatable-list_wrapper .table>thead>tr>th {
+			white-space: normal;
+		}
+	}
+
+	/********** Header only ******************/
+	@media only screen and (max-width: 820px) {
+		nav ul li a, .user>a {
+			width: 80px;
+			font-size: 16px;
+		}
+		/********** My vehicle ******************/
+		.search-parts-templates.whereusedBox {
+			width: 45%;
+			margin: 0 2% 5px;
+		}
+	}
+	@media only screen and (max-width: 610px) {
+		/********** My vehicle******************/
+		.search-parts-templates .machine-details a.close-btn {
+			position: absolute;
+			right: -2px;
+			top: -11px;
+		}
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width:320px) and (max-width : 479px) {
+		body {
+			font-size: 14px;
+		}
+		h4 {
+			font-size: 17px;
+		}
+		h3 {
+			font-size: 20px;
+		}
+		p {
+			font-size: 14px;
+		}
+		.nopadding-xs {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		/********** Account details page ******************/
+		.selectBtn.shipToList {
+			width: 252px;
+		}
+		.addressBox2 {
+			margin-left: 148px;
+		}
+		.addressBox {
+			margin-left: 149px;
+		}
+		/********** Search Result ******************/
+		.allResultTabs>li {
+			margin-bottom: 9px;
+		}
+		#treeCatalog, .treeview-hldr {
+			margin-right: 0px;
+		}
+		.responsive-padding {
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+
+		/********** Shop for Parts ******************/
+		.resultBox1 select {
+			width: 60px;
+		}
+		.btn.cart-small {
+			height: 40px;
+			font-size: 18px;
+		}
+		.erp-price-avail .btn-addtocart {
+			margin-bottom: 10px;
+		}
+		.erp-price-avail .btn-buynow.cart-small {
+			border-bottom: 1px solid #3adf00;
+			border-radius: 6px !important;
+		}
+
+		/********** Media documents ******************/
+		.media-desc {
+			width: 80%;
+		}
+		/********** Search Result ******************/
+		.searchResult .tabs-menu li {
+			margin-bottom: 9px;
+		}
+		/********** direct create order ******************/
+		.timeline {
+			margin: 33px 5% 0 9%;
+		}
+		.choose-brand>p {
+			margin-left: 4px;
+		}
+		.timeline+h3 {
+			margin-left: 4px;
+		}
+		#brandBox>.column-paddings {
+			padding: 10px;
+		}
+		/********** Quote to order page ******************/
+		.search-parts-template.cart-details {
+			text-align: center;
+		}
+		.delete-item-parent {
+			text-align: right;
+		}
+
+		/********** Edit Quote ******************/
+		.remove {
+			margin: -4px 5px 0px;
+		}
+		.div.form-group .ctq-checkbox {
+			vertical-align: baseline;
+		}
+		h3>span.required-message {
+			float: none;
+		}
+		.btn-addtocart, .btnBlue {
+			height: auto;
+			display: inline-block;
+			padding: 5px 10px;
+			margin-top: 10px;
+			min-width: 0px;
+		}
+		.currency {
+			text-align: left;
+			padding: 0px 0px;
+		}
+		/*.charges-label{
+        padding: 0px 0px;
+      }*/
+		.btn-val-charges {
+			margin-top: 0px;
+		}
+
+		/*********** Header ******************/
+		.brand {
+			height: auto;
+			margin-top: 0px;
+		}
+		.brand>img {
+			margin: -50px 10px 0px 50px;
+			width: 70px;
+		}
+		.sidebar-button {
+			margin-left: 10px;
+			padding-top: 40px;
+		}
+		.cart-popover-xs::after {
+			left: 34%;
+			top: 6px;
+		}
+		.cart-popover-xs {
+			top: 50px;
+		}
+		.cart-popover-xs>.quick-search-cart {
+			margin-top: 15px;
+		}
+		nav ul li a, .user>a {
+			width: 60px;
+			font-size: 12px;
+		}
+
+		/*********** Footer ******************/
+		.content-wrapper {
+			padding: 25px 0px 50px;
+		}
+		footer {
+			height: auto;
+		}
+		.footer-menu-list, .quick-links-list {
+			margin-top: 10px
+		}
+		.footer-menu-list>li:first-child>a, .quick-links-list>li:first-child>a {
+			padding-left: 5px;
+		}
+		div.social-media {
+			text-align: center;
+			margin-bottom: 25px;
+		}
+		.copyright {
+			text-align: center;
+		}
+
+		/*********** My Account **************/
+		.nav-pills>li+li {
+			margin-left: 0px;
+		}
+		.selectBtn {
+			margin-left: 0;
+		}
+		#languageList.selectBtn {
+			margin-left: 13px;
+		}
+		/*********** My vehicle **************/
+		.search-parts-templates.whereusedBox {
+			width: 97%;
+			margin: 0 1% 5px;
+		}
+		/*div.resultBox1 div:nth-child(1){
+        width:23% ;
+             }
+       div.resultBox1 div:nth-child(2){
+        width:65% ;
+             }
+             div.resultBox1 div:nth-child(2) div:first-child{
+        width:95%;
+             }
+             div.resultBox1 div:nth-child(2) div:last-child{
+        width:86%;
+             } */
+		/********* Cart popover ******************/
+		.cart-popover::after, .cart-popover-xs::after {
+			left: 46%;
+		}
+		.cart-popover, .cart-popover-xs {
+			right: 5px;
+			top: -29px;
+			z-index: 9999;
+		}
+		div.otherDetails-content>h5 {
+			padding: 0 6px;
+		}
+		div.otherDetails-content>p {
+			padding: 0 6px;
+		}
+		div.otherDetails button.btn-size {
+			width: 100%;
+		}
+		.text-center-xs {
+			text-align: center;
+		}
+		.btn-group-vertical {
+			margin-top: 5px;
+		}
+
+		/************ Quote List ***************/
+		#quote-list_filter>div {
+			display: block;
+		}
+		div.dataTables_length {
+			text-align: left;
+		}
+		div.datefilter {
+			text-align: left;
+		}
+		.visible-xs-inline {
+			display: inline-block;
+		}
+		/************ cart ***************/
+		.spinner-control {
+			margin-top: 6px;
+		}
+	}
+
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 319px) {
+		body {
+			font-size: 14px;
+		}
+		h4 {
+			font-size: 17px;
+		}
+		h3 {
+			font-size: 20px;
+		}
+		p {
+			font-size: 14px;
+		}
+		.responsive-padding {
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+
+		/********** Media documents ******************/
+		.media-desc {
+			width: 80%;
+		}
+
+		/********** Edit Quote ******************/
+		.remove {
+			margin: -4px 5px 0px;
+		}
+		div.form-group .ctq-checkbox {
+			vertical-align: baseline;
+		}
+		h3>span.required-message {
+			float: none;
+		}
+		.btn-addtocart, .btnBlue {
+			height: auto;
+			display: inline-block;
+			padding: 5px 10px;
+			margin-top: 10px;
+		}
+		.currency {
+			text-align: left;
+			padding: 0px 0px;
+		}
+		.charges-label {
+			padding: 0px 0px;
+		}
+		.btn-val-charges {
+			margin-top: 0px;
+		}
+
+		/********** Account details page ******************/
+		.addressBox {
+			margin-left: 113px;
+		}
+		.addressBox2 {
+			margin-left: 110px;
+		}
+		.selectBtn, .selectBtn.shipToList {
+			width: 223px;
+		}
+		/********** Search Result ******************/
+		.allResultTabs  li li {
+			margin-bottom: 9px;
+		}
+		/*********Header **************/
+		.brand>img {
+			margin: -50px 10px 0px 50px;
+			width: 70px;
+		}
+		.sidebar-button {
+			padding-top: 40px;
+		}
+		.nav-cart {
+			width: 55px;
+		}
+		.cart-popover-xs::after {
+			left: 38%;
+			top: 3px;
+		}
+		.cart-popover-xs {
+			top: 50px;
+		}
+		.cart-popover-xs>.quick-search-cart {
+			margin-top: 12px;
+		}
+
+		/*********** My Account **************/
+		.nav-pills>li+li {
+			margin-left: 0px;
+		}
+
+		/*********** View Order **************/
+		.spinner-control {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+		/*********** My vehicle **************/
+		.search-parts-templates.whereusedBox {
+			width: 95%;
+			margin: 0 2% 5px;
+		}
+		/*div.resultBox1 div:nth-child(1){
+        width:20% ;
+             }
+        div.resultBox1 div:nth-child(2){
+        width:65% ;
+             }
+             div.resultBox1 div:nth-child(2) div:first-child{
+        width:95%;
+             }
+             div.resultBox1 div:nth-child(2) div:last-child{
+        width:86%;
+             } */
+		/********* Cart popover ******************/
+		.cart-popover::after, .cart-popover-xs::after {
+			left: 46%;
+		}
+		.cart-popover, .cart-popover-xs {
+			right: 5px;
+			top: -29px;
+			z-index: 9999;
+		}
+		/*********************** Full item details **********************************/
+		div.otherDetails-content>h5 {
+			padding: 0 6px;
+		}
+		div.otherDetails-content>p {
+			padding: 0 6px;
+		}
+		div.otherDetails button.btn-size {
+			width: 100%;
+		}
+		.text-center-xs {
+			text-align: center;
+		}
+		.btn-group-vertical {
+			margin-top: 5px;
+		}
+		/*********************** shop for parts *****************************************/
+		.btn.cart-small {
+			font-size: 18px;
+			height: 40px;
+			width: 100%;
+		}
+		/*  .search-parts-template.cart-details {
+           text-align: center;
+       } */
+		.erp-price-avail .btn-buynow.cart-small {
+			border-bottom: 1px solid #3adf00;
+			border-radius: 6px !important;
+		}
+	}
+
+	/* Custom, for Login and Register pages */
+	@media only screen and (max-width : 529px) {
+		.overlay-content .form-group .multiselect-list, .signin-group,
+			.register-group, p.validation-message {
+			width: auto;
+		}
+		.multiselect-list dd ul {
+			width: 100%;
+		}
+	}
+
+	/* portrait */
+	/* @media only screen and (max-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { */
+	@media only screen and (max-device-width : 768px) and (orientation :
+		portrait) {
+		/* portrait-specific styles */
+		.upsell-img-wrapper .no-image {
+			width: 110px;
+		}
+		.nav-justified>li {
+			width: 20%;
+		}
+		.profile-tabs>li>a {
+			padding: 10px 1px;
+		}
+		.myaccount>div {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.ui-autocomplete {
+			display: none;
+		}
+		.owl-controls {
+			display: block;
+		}
+		#idlink>li:nth-child(4) {
+			display: none;
+		}
+		.cd-top.cd-is-visible {
+			z-index: 2;
+		}
+		.unit {
+			padding-left: 5px;
+		}
+		nav#menu {
+			width: 46%;
+		}
+		nav#menu input:focus {
+			width: 100%;
+		}
+		.tree_paddleft {
+			width: 334px;
+			padding-right: 5px;
+			float: left;
+		}
+		#treemachine-catalog {
+			float: left;
+			width: 334px;
+		}
+		.input-group {
+			width: 100%;
+		}
+		input#reference-no, input#customer-no {
+			width: 95%;
+		}
+		.data_tables_title span {
+			display: none;
+		}
+		.cart-details {
+			font-size: 13px;
+		}
+		.pricebox {
+			padding-left: 5px !important;
+		}
+		.attach-file-section {
+			display: none;
+		}
+		.attachment {
+			display: none;
+		}
+		img.configuratorL {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	@media only screen and (min-device-width : 985px) and (max-device-width
+		: 1025px) and (orientation : landscape) {
+		/*configurator */
+		#cadenas3d {
+			width: 400px !important;
+			height: 475px !important;
+		}
+	}
+	/* landscape */
+	@media only screen and (max-device-width : 768px) and (orientation :
+		landscape) {
+		/* landscape-specific styles */
+		.ui-autocomplete {
+			display: none;
+		}
+		.owl-controls {
+			display: block;
+		}
+		#idlink>li:nth-child(4) {
+			display: none;
+		}
+		.cart-details {
+			font-size: 13px;
+		}
+		.unit {
+			padding-left: 5px;
+		}
+		.cd-top.cd-is-visible {
+			z-index: 2;
+		}
+		.pricebox {
+			padding-left: 15px !important;
+		}
+		.input-group {
+			width: 100%;
+		}
+		nav#menu {
+			width: 40%;
+		}
+		.data_tables_title span {
+			position: relative;
+			left: 90px;
+		}
+		.attach-file-section {
+			display: none;
+		}
+		.attachment {
+			display: none;
+		}
+	}
+}

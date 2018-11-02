@@ -1,0 +1,245 @@
+html, body {
+	height: 100% !important;
+	width: 100% !important;
+}
+
+html {
+	overflow: auto !important;
+	height: 315px !important
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
+	margin: 0px auto 0 auto;
+	text-align: center;
+}
+
+.merchant-logo {
+	height: 150px;
+	width: 400px;
+	margin: auto;
+	background-size: 60%;
+	background-position: center;
+}
+
+.billing-content {
+	
+}
+
+.billing-header {
+	background-color: transparent;
+	width: 96%;
+	margin: auto;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 4px 0;
+}
+
+.billing-info {
+	text-align: center;
+}
+
+.payment-button {
+	background-color: transparent;
+	width: 96%;
+	margin: auto;
+	padding: 5px 0;
+	text-align: right;
+}
+
+.payment-button input {
+	border: none;
+	border-radius: 3px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.payment-button .cancel-button {
+	background-color: #BBB;
+	border: solid 1px #BBB;
+	margin-right: 10px;
+}
+
+.payment-button .submit-button {
+	background-color: #0099FF;
+	border: solid 1px #0099FF;
+}
+
+.payment-content #c-content div, .payment-content #ec-content div {
+	padding: 3px 2px;
+	margin: 0 10px;
+	text-align: left;
+}
+
+.payment-content div  #c-cvvh {
+	border-top: none;
+}
+
+[name='dieCommFrame'] {
+	padding-left: 5px;
+	overflow: hidden !important;
+}
+
+.IFrameButton {
+	border: 1px solid rgb(124, 123, 123);
+	background-color: #F0F0F0;
+	border-radius: 2px 3px;
+	padding: 4px 9px;
+	margin-left: 2%;
+	min-width: 75px;
+}
+/* IFrame styles*/
+#html-main-content {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.valmsg {
+	color: #c63b3b;
+	display: inline-block;
+	width: 100%;
+	height: 18px;
+	text-align: center;
+	margin-left: 24%;
+	text-align: left;
+	display: none;
+}
+
+.valmsg-ac-type {
+	margin-left: 35px;
+	color: #c63b3b;
+}
+
+.valmsg-img {
+	background-image: url("../Images/red-info.png");
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+.errorTooltip {
+	background-color: white;
+	border: 1px solid #626161;
+	color: #c63b3b;
+	border-radius: 7px;
+}
+
+.xiInputError {
+	border: 1px solid #b94a48 !important;
+	background-color: #fef5f5 !important;
+}
+
+.PaymentDetailHeader {
+	text-align: center !important;
+	width: 100%;
+	color: rgb(232, 6, 6);
+	height: 30px;
+	padding-top: 2px;
+	/*margin: 5px 0;*/
+}
+
+select, input {
+	width:75%;
+	border: 1px solid #ccc;
+	font-size: 14px !important;
+	padding: 5px 10px;
+	height: 29px;
+	line-height: 1.33333 !important;
+	margin-bottom: 5px !Important;
+	margin-top: 12px;
+}
+
+select#c-exmth, select#c-exyr, select#c-stmth, select#c-styr {
+	width:31%;
+	margin-bottom: 5px;
+	margin-right: 12px;
+}
+
+input#RememberMeCheckbox {
+	width: 20px;
+	text-align: left !Important;
+	vertical-align: sub;
+	height: 15px;
+}
+
+.controlsbtn label {
+	font-size: 13px;
+}
+
+#iframewrapper {
+	height: 100% !important;
+	overflow-y: auto;
+	background: #e8ecef
+}
+
+#rememberMeDiv label {
+	width: 10% !Important;
+}
+
+.important {
+	color: red;
+}
+
+div#div {
+	text-align: left;
+}
+
+span#span {
+	color: red;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#c-content, .address-info {
+	width: 100%;
+	float: left;
+}
+
+div.labelhold {
+	display: inline-block;
+	width: 24%;
+}
+
+.address-content .labelhold {
+	width: 16%;
+	padding-left: 6%;
+}
+
+#c-cvv {
+	width: 25%;
+}
+
+#city, #state {
+	width: 35%;
+}
+
+#postalCode {
+	width: 20%
+}
+
+#c-content .valmsg {
+	text-align: left;
+}
+
+#valmsg-c-cvv {
+	display: inline;
+	margin-left: 10px;
+}
+
+#valmsg-c-cn, #c-exmth-error, #valmsg-c-chn, #valmsg-c-styr,
+	#valmsg-c-exyr, #c-exmth-error, #valmsg-c-cardnumber,
+	#valmsg-c-cardname, #c-cardnumber-error, #c-cardname-error,
+	#c-exyr-error {
+	display: none !important;
+}

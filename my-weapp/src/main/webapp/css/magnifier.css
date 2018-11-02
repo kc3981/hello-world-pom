@@ -1,0 +1,51 @@
+#viewer2dDiv {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.magnify {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border: 0px;
+	position: relative;
+}
+
+.large {
+	border: 0px;
+	margin: 0;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px
+		rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	/*background:url('media/10808888_Eblatt_05_1v2_raster.png');*/
+	display: none;
+}
+
+.magnifyy {
+	width: 85%;
+	height: auto;
+	overflow: hidden;
+	border: 0px;
+	position: relative;
+}
+
+.largee {
+	border: 0px;
+	margin: 0;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px
+		rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	/*background:url('media/10808888_Eblatt_05_1v2_raster.png');*/
+	display: none;
+}
+
+#viewer3dDiv {
+	text-align: center;
+}

@@ -1,0 +1,190 @@
+.block-wrapper {
+	clear: both;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.block>div:last-child {
+	background: #f1f2f2;
+	transition: transform 2s linear;
+	border: 1px solid #d5d5d5;
+	padding: 3px 10px;
+	transform: translateY(0);
+}
+
+div.advanceFilter input.qty {
+	float: none;
+}
+
+div.advanceFilter input[type="text"] {
+	width: 60px;
+	margin-right: 5px;
+	border: 1px solid #aaa;
+	padding: 2px;
+	height: 26px;
+}
+
+::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: #ccc;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+	color: #ccc;
+}
+
+:-ms-input-placeholder {
+	color: #ccc;
+}
+
+.block
+ 
+input
+:not
+ 
+(
+.qty
+ 
+){
+width
+:
+ 
+130
+px
+ 
+!
+important
+;
+
+
+}
+div.advanceFilter {
+	min-height: 50px;
+}
+
+div.advanceFilter input:first-child {
+	margin-left: 0;
+}
+
+div.advanceFilter p {
+	font-size: 12px;
+}
+
+.dropdown .btn {
+	font-size: 14px;
+}
+
+div.advanceFilter>p:first-child {
+	font-weight: bold;
+	margin-right: 4px;
+}
+
+div.advanceFilter>p:first-child label {
+	min-width: 80px;
+	text-transform: capitalize !important;
+}
+
+div.advanceFilter .dropdown {
+	min-width: 137px;
+	width: 137px;
+	margin: 0;
+	color: #fff;
+	display: inline-block;
+}
+
+div.advanceFilter .dropdown button {
+	text-align: left;
+	padding: 2px 10px;
+	color: #000;
+	font-weight: normal;
+}
+
+div.advanceFilter .dropdown button span {
+	color: #fff;
+}
+
+.block .btn {
+	min-width: 30px;
+	padding: 6px 20px;
+	height: 30px;
+}
+
+.block .btns {
+	padding-right: 0;
+	padding-left: 0;
+	margin-top: 3px;
+}
+
+.block .btn-addtocart {
+	margin-right: 6px;
+}
+
+.block>div:last-child p {
+	display: block;
+	margin: 0 0 4px;
+}
+
+.block>div:last-child p label {
+	margin-bottom: 0;
+}
+
+.block div.col-sm-4, .block div.col-sm-8, .block .col-sm-12>div.col-sm-12
+	{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.block select {
+	width: auto;
+	min-width: 15%;
+	padding: 2px;
+	border: 1px solid #aaa;
+	height: 26px;
+	margin-right: 5px;
+}
+
+.block .betweenSelect {
+	width: auto;
+}
+
+.filter-text {
+	font-size: 15px;
+	font-weight: normal;
+	text-decoration: underline;
+	transition: all 1s linear;
+	display: block !important;
+	cursor: pointer;
+}
+
+.block h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #53585a;
+	color: #fff;
+	font-size: 13px;
+	padding: 10px;
+	font-weight: 700;
+}
+
+.block h3 span {
+	cursor: pointer;
+}
+
+.block label {
+	font-weight: normal;
+}
+
+.dropDown-icon {
+	transform: rotate(-90deg);
+	top: 0px;
+}
+
+#errorBlock {
+	display: inline-block;
+	color: red;
+	margin-left: 5px;
+	font-size: 13px;
+}

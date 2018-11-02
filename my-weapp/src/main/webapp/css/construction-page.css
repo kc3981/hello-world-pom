@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'Roboto Light';
+	src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	background: #171717;
+	color: #ffffff;
+	font: 16px "Roboto Light", sans-serif;
+}
+
+h1 img {
+	padding-top: 100px;
+}
+
+h2 {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.main {
+	text-align: center;
+	padding: 0px;
+}
+
+.header {
+	background: #ec9d00;
+	min-height: 280px;
+	height: auto;
+	padding-top: 20px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content h4 {
+	margin-top: 0px;
+	font-size: 18px;
+}
+
+.content h2 {
+	margin-bottom: 0;
+	margin-top: 5%;
+	font-size: 18px;
+}

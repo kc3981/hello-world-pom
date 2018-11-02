@@ -1,0 +1,308 @@
+html, body {
+	width: 100%;
+	height: 100%
+}
+
+.paymentHold {
+	height: 100%;
+	padding: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.center {
+	text-align: center
+}
+
+input[type=checkbox] {
+	vertical-align: text-bottom;
+	margin-right: 5px !important;
+}
+
+.cardTypeIcon i {
+	width: 55px;
+	height: 35px;
+	display: inline-block;
+	background: url("../images/card-types-sprite.png") no-repeat -85px
+		-849px;
+	-webkit-transition: background-position .5s ease-in-out;
+	-moz-transition: background-position .5s ease-in-out;
+	-o-transition: background-position .5s ease-in-out;
+	transition: background-position .5s ease-in-out;
+	vertical-align: middle;
+}
+
+.cardTypeIcon i.default {
+	background-position: -85px -849px;
+}
+
+.cardTypeIcon i.visa {
+	background-position: -85px -310px;
+}
+
+.cardTypeIcon i.amex {
+	background-position: -85px -71px;
+}
+
+.cardTypeIcon i.mastercard {
+	background-position: -85px -191px;
+}
+
+.cardTypeIcon i.maestro {
+	background-position: -85px -131px;
+}
+
+.cardTypeIcon i.discover {
+	background-position: -85px -371px;
+}
+
+.cardTypeIcon i.default {
+	background-position: -85px -849px;
+}
+
+.cardTypeIcon i.vi {
+	background-position: -85px -310px;
+}
+
+.cardTypeIcon i.ax {
+	background-position: -85px -71px;
+}
+
+.cardTypeIcon i.mc {
+	background-position: -85px -191px;
+}
+
+.cardTypeIcon i.to {
+	background-position: -85px -131px;
+}
+
+.cardTypeIcon i.di {
+	background-position: -85px -371px;
+}
+
+span.cardTypeIcon {
+	vertical-align: middle;
+}
+
+.savedCardDetail p {
+	margin-bottom: 0px;
+	display: inline;
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+.paymentHold main {
+	border: 1px solid #ccc;
+	background: #f1f1f1;
+	padding: 20px;
+}
+
+.paymentHold main .row {
+	margin-bottom: 12px;
+}
+
+.savedCardDetail {
+	padding-left: 10px;
+}
+
+.paymentHold main h4 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+}
+
+a.addressUpdate {
+	color: #0001D2;
+	font-size: 14px;
+}
+
+.addressUpdate i.fa.fa-pencil {
+	padding-right: 10px;
+}
+
+a.NewCard, a.NewAddress {
+	font-size: 16px;
+	padding-left: 10px;
+	color: #333;
+	float: left;
+	margin-bottom: 10px;
+}
+
+a.NewCard i.fa.fa-plus, a.NewAddress i.fa.fa-plus {
+	padding-right: 8px;
+}
+
+a.NewAddress {
+	font-size: 15px;
+	margin-top: 10px;
+	color: #000;
+}
+
+.cardInfo .input-group {
+	width: 100%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.cardInfo .input-group label {
+	margin-bottom: 2px;
+	font-size: 12px;
+	width:100%
+}
+.cardTypeIcon{
+	display: none;
+}
+.cvv input{
+	width: 25%;
+}
+.cardInfo .input-group input {
+	border-radius: 0px;
+}
+
+.cardInfo, .AddressInfo {
+	background: #CCCDDC;
+	display: inline-block;
+	padding: 15px 10px 10px 23px;
+	min-height:350px;
+	width: 100%;
+}
+
+.AddressInfo {
+	padding: 16px 10px 10px 26px;
+	min-height: 259px;
+}
+
+.AddressInfo p {
+	margin-bottom: 0px;
+	display: inline;
+	vertical-align: middle;
+	font-size: 13px;
+	color: #000;
+	font-weight: bold;
+}
+
+.AddressInfo div {
+	margin: 3px 0px;
+}
+
+.AddressInfo select, .cardInfo select {
+	padding: 7px 5px;
+	border: none;
+	color: #111111;
+	width: 70%;
+}
+
+.AddressInfo input[type="radio"] {
+	margin-top: 0px;
+	vertical-align: middle;
+}
+
+.AddressInfo h5 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.pad30 {
+	padding: 25px 30px !important;
+}
+
+#AddressForm .input-group {
+	width: 100%;
+}
+
+#AddressForm .input-group input, #AddressForm .input-group select {
+	width: 98% !important;
+}
+
+.btn-pay, .btn-cancel, .btn-save {
+	border: 1px solid rgb(124, 123, 123);
+	background-color: #313131;
+	border-radius: 2px 3px;
+	padding: 4px 9px;
+	margin-left: 2%;
+	min-width: 75px;
+	color: #fff;
+}
+
+.btn-pay, .btn-save {
+	/* background-color: #910a0a;
+	border-color: #910a0a; */
+	/*color: #fff;*/
+}
+
+.btn-pay:hover, .btn-pay:focus, btn-save:hover, .btn-save:focus {
+	/* background-color: #7d0000;
+	border-color: #7d0000; */
+	color: #fff !important
+}
+
+.btn-cancel {
+	background-color: #313131;
+	border-color: #313131;
+	color: #fff;
+}
+
+.btn-cancel:hover, .btn-cancel:focus {
+	background-color: #1b1b1b;
+	border-color: #1b1b1b;
+	color: #fff !important
+}
+
+#savedCard, #AddressSelect, #AddressForm, #IframeHold {
+	display: none;
+}
+
+.NewCrdRemember {
+	font-size: 13px;
+	margin-bottom: 10px;
+	display: none;
+}
+
+#iFrameHandler .input-group input, #iFrameHandler .input-group select {
+	width: 90%;
+}
+
+#savedCard {
+	padding-left: 5%;
+}
+.payment_city{
+	margin-top: 80px;
+}
+
+/*Responsive code added by GURU for Mobile compatible*/
+@media (min-width: 300px) and (max-width: 767px){
+	.cardInfo .input-group label{
+		width: auto;
+	}
+.cardInfo .input-group{
+	float:none;
+}
+.AddressInfo select, .cardInfo select{
+	width:90%;
+}
+.AddressInfo {
+    padding: 10px;
+    min-height: 140px;
+}
+.payment_city{
+	margin-top: 0px;
+}
+#iFrameHandler #AddressForm {
+    padding: 0;
+}
+}
+@media only screen and (min-width: 300px) and (max-width: 991px){
+	#iFrameHandler #AddressForm {
+		height: 355px;
+	}	
+}
+@media(min-width:992px) {
+	#iFrameHandler #AddressForm {
+		height: auto;
+	}	
+}

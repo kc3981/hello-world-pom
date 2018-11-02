@@ -1,0 +1,145 @@
+/* Default Theme File */
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* CSS VARIABLES FOR THEME COLORS */
+
+:root {
+ --primary-color: #0D71BA;
+ --primary-color-hover: #0861A2;
+}
+
+
+/* END OF VARIABLES */
+
+/* //////////////////////////////////////////////////////////////////////////// */
+/* THEMEABLE ITEMS */
+
+.btn-action { 
+	background-color: #0D71BA; /* fallback for IE11 */
+	background-color: var(--primary-color);
+	color: white;
+	fill: white;
+}
+
+.btn-action:hover { 
+	background-color: #0861A2; /* fallback for IE11 */
+	background-color: var(--primary-color-hover); 
+}
+
+.navbar-first { 
+	background-color: #0D71BA; /* fallback for IE11 */
+	background-color: var(--primary-color);
+ }
+
+/* END OF ITEMS */
+
+
+
+.branding-logo, .branding-logo-sm, .branding-logo-sidebar  {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 60px;  /*Firefox & Edge */
+    height: -webkit-fill-available; /*Chrome*/
+    display: block;
+}
+
+.branding-logo {
+    background-image: url("logo.svg");
+    height: 47px;
+    width: 200px;  
+    min-width: 200px;  
+}
+
+.branding-logo-sm {
+    background-image: url("GenAlpha-white_SVG.svg");
+    height: 42px;
+    width: 180px;     
+}
+
+.branding-logo-sidebar { background-image: url("https://genalpha.com/wp-content/uploads/2018/05/genalpha-logo-211.png"); }
+
+.branding-sidebar { background-image: url("../../img/default-bg.jpg"); }
+
+.branding-sidebar:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0; 
+	bottom: 0; 
+	left: 0; 
+	opacity: .9;
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top, #1e5799 0%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1e5799 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+.footer {
+      background-color:  #F2F5FA;
+}
+    
+/* !important is required here due to mdbootstrap */    
+.btn-outline-primary {    
+    padding: 1em 2.5em;
+	border: 1px solid #E6EAEF !important; 
+	background-color: #F2F5FA !important;
+}
+
+.btn-dark {
+  	background-color: #37474F!important; 
+  	color: #fff!important;
+  	height: 48px;
+}
+
+.search-bar {
+	width: 100%;
+	max-width: 475px;
+}
+
+.btn-action > .fa-search { font-size: 16px; }
+
+@media ( min-width : 1024px) {
+	.branding-logo {
+		height: 52px;
+		width: 225px; 
+		min-width: 225px; 
+	}
+}
+
+
+
+  
+/* Example for Rev
+
+  
+/* div.branding-logo { */
+/*     background-image: url("https://parts.revgroup.com/gensuite-logo/rrg-logo.png"); */
+/*     height: 78px; */
+/*     width: 178px;     */
+/* } */
+
+/* div.branding-logo-sm { */
+/*     background-image: url("https://d28b03rtckaeno.cloudfront.net/resources/themes/rev_theme/assets/assets/logo/logo.png"); */
+/*     height: 78px; */
+/*     width: 178px;  */
+/* } */
+
+// Example for Milacron
+
+/* div.branding-logo { */
+/*     background-image: url("https://milacronqa.genalphacatalog.com/gensuite-logo/milacron-logo.png"); */
+/*     height: 56px; */
+/*     width:256px;  */
+/*     top:12px; */
+/*     transform: scale(.80);     */
+/* } */
+
+/* div.branding-logo-sm { */
+/*     background-image: url("https://milacronqa.genalphacatalog.com/gensuite-logo/milacron-logo.png"); */
+/*     height: 56px; */
+/*     width:256px;  */
+/*     transform: scale(.65); */
+/*     left:-50px;     */
+/* } */

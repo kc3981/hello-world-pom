@@ -1,0 +1,21 @@
+.sampleBody .payment-content {
+	background: #e8ecef;
+}
+
+.billing-content {
+	width: 35%;
+	margin: 0 auto;
+}
+
+.line-sep {
+	width: auto;
+}
+
+.form-group {
+	margin-bottom: 15px;
+	text-align: left !Important;
+}
+
+.btn-pay {
+	margin-left: 25%;
+}

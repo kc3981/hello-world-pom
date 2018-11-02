@@ -1,0 +1,36 @@
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><spring:message code="label.page.under.construction" /></title>
+
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css"
+	href="../css/construction-page.css">
+</head>
+
+<body>
+	<div class=" main col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<div class="header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<h1>
+				<img
+					src="${sessionScope.logo}"
+					alt="logo-image">
+			</h1>
+			<h3>
+				<spring:message code="label.page.coming.soon" />
+			</h3>
+		</div>
+
+		<div class="content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<h2>
+				>
+				<spring:message code="label.page.this.construction" />
+			</h2>
+		</div>
+	</div>
+</body>
+</html>

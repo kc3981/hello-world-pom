@@ -1,0 +1,19 @@
+
+body {
+  margin-bottom: 0rem;
+}
+
+@media (min-width: 576px)
+{
+  body {
+      margin-bottom: 0rem;
+  }
+}      
+
+@media (min-width: 776px)
+{
+  
+  body {
+       margin-bottom: 0rem;
+  }
+}      

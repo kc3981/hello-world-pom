@@ -1,0 +1,714 @@
+/* //////////////////////////////////////////////////////////////  */
+/* SHELL/SETUP OVERRIDES */
+html {
+	position: relative;
+	min-height: 100%;
+	font-size: 14px;
+}
+
+body {
+	margin-bottom: 12rem;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 400;
+	font-color: #455A64;
+	background: white;
+	color: #37474F;
+	-webkit-user-select: none; /* webkit (safari, chrome) browsers */
+	-moz-user-select: none; /* mozilla browsers */
+	-khtml-user-select: none; /* webkit (konqueror) browsers */
+	-ms-user-select: none; /* IE10+ */
+}
+
+/* //////////////////////////////////////////////////////////////  */
+/* BUTTON OVERRIDES */
+.btn {
+	text-transform: none;
+	font-size: 1rem;
+	box-shadow: none;
+	margin: 0;
+	white-space: nowrap;
+	transition: 100ms ease-out;
+}
+
+.btn:active, .btn-outline-primary:active, .btn--action:active {
+	transform: scale(.95);
+}
+
+.btn-sm {
+	font-size: .85rem;
+}
+
+.btn-outline-primary {
+	padding: 1em 2.5em;
+	border: 1px solid #E6EAEF;
+	background-color: #F2F5FA;
+	color: #4A90E2;
+	border-radius: 30px;
+	transition: 100ms ease-out;
+	cursor: pointer;
+}
+
+.btn-outline-primary:hover {
+	background-color: #ebeff7 !important;
+	border-color: #E6EAEF !important;
+}
+
+/* END BUTTON OVERRIDES */
+
+/* //////////////////////////////////////////////////////////////  */
+/* INPUT OVERRIDES */
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"]
+	{
+	background: #f2f5fa;
+	border: 1px solid #e6eaef;
+	padding: 0 14px;
+	height: 3.2857142857142856rem;
+	transition: 100ms ease-out;
+	/*removes shadow from Iphone view */
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover,
+	input[type="tel"]:hover {
+	border-color: #CECFD1
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus,
+	input[type="tel"]:focus, textarea.form-control:focus {
+	box-shadow: 0 0 0 2pt rgb(59, 153, 252);
+	/*Removed !important as it is overriding valiodation border*/
+	border: 1px solid #e6eaef;
+}
+
+input#phone_register::placeholder {
+	color: #91A5B0;
+	opacity: 1; /* Firefox */
+}
+
+input#phone_register:-ms-input-placeholder {
+	color: #91A5B0;
+}
+
+input#phone_register::-ms-input-placeholder {
+	color: #91A5B0;
+}
+
+.label {
+	margin-bottom: .35rem;
+}
+
+.flex-content-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 98vh;
+	justify-content: space-between; 
+}
+
+.form-control {
+	height: 3.2857142857142856rem;
+	border-radius: 2px;
+	border: 1px solid rgba(207, 216, 220, 0.26);
+	background-color: #F2F5FA;
+	box-shadow: none;
+}
+
+.form-control:focus {
+	border: 2px solid #4A90E2;
+	box-shadow: none;
+}
+
+.max-width-form {
+	max-width: 850px;
+}
+
+.form-group>label, .input-label {
+	font-weight: 700;
+	margin-bottom: 0.21428571428571427rem;
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+textarea {
+	resize: none;
+}
+
+textarea.form-control {
+	border: 1px solid #e6eaef;
+	transition: 100ms ease-out;
+}
+
+textarea:hover {
+	border-color: #CECFD1;
+}
+
+/*  END INPUT OVERRIDES */
+.font-weight-semi-bold {
+	font-weight: 600;
+}
+
+.card {
+	z-index: -1;
+}
+
+.font-size-sm {
+	font-size: .928571429rem;
+}
+
+.titles {
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 38px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-width: 320px;
+	height: 12rem;
+	font-size: .8rem;
+}
+
+.copyright {
+	margin-top: 20px;
+	font-size: .7rem;
+	font-weight: 400;
+}
+
+.themed-side {
+	width: 33.33%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin: 0;
+	-webkit-transform: translateX(0);
+	-ms-transform: translateX(0);
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-backface-visibility: hidden;
+}
+
+a.nav-item.nav-link {
+	color: white;
+	padding: 1.5rem 1rem;
+	line-height: 1;
+}
+
+.required-star {
+	color: #FF444;
+	padding-left: 1px;
+}
+
+.loggedin-user {
+	font-weight: 600;
+}
+
+.loggedin-menu {
+	background: transparent;
+}
+
+.loggedin-menu:focus {
+	background: transparent;
+	box-shadow: none;
+}
+
+.link-list>a {
+	margin-right: 1rem;
+}
+
+.footer-row {
+	width: 100%;
+	min-width: 320px;
+}
+
+.navbar-first {
+	top: 0rem;
+	min-width: 320px;
+}
+
+.header-container {
+	height: 0rem;
+}
+
+.viewport {
+	margin-top: 10rem;
+}
+
+.viewport-container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.branding-logo, div.branding-logo-sm {
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+@media ( min-width : 576px) {
+	.footer {
+		height: 9rem;
+	}
+	body {
+		margin-bottom: 9rem;
+	}
+
+	/*.navbar-first {   
+      top: 10rem;
+  }*/
+	.header-container {
+		height: 10rem;
+	}
+
+	/*.viewport {
+      margin-top: 12rem;
+  }*/
+}
+
+@media ( min-width : 768px) {
+	.footer {
+		height: 9rem;
+	}
+	body {
+		margin-bottom: 9rem;
+	}
+	.navbar-first {
+		top: 6rem;
+		z-index: auto;
+	}
+	.header-container {
+		height: 6rem;
+	}
+	.viewport {
+		margin-top: 9.5rem;
+	}
+	a.nav-item.nav-link {
+		padding: 1.19rem;
+	}
+}
+
+.side-nav {
+	width: 20rem;
+}
+
+#sidenav-overlay {
+	z-index: 1032;
+}
+
+.side-bar-logo-wrapper {
+	background: #37474F;
+}
+
+.waves-effect.font-weight-bold.dropdown-item:not (:hover ) {
+	color: white;
+}
+
+.vl-login {
+	border-left: 3px solid #F2F5FA;
+	height: 50%;
+}
+
+.limit-height.carousel-item {
+	max-height: 30rem;
+	min-height: 30rem;
+}
+
+.fill-available {
+	
+}
+
+.language-selector {
+	transform: scale(.8);
+}
+
+.language {
+	color: #455A64;
+	background-color: transparent;
+	border: none;
+	background: #f2f5fa;
+	border: 1px solid #e6eaef;
+}
+
+.language>.fa-globe {
+	font-size: 1.142857143rem;
+}
+
+.user-icons {
+	position: initial;
+}
+
+a.row {
+	font-size: .8em;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #4A90E2;
+}
+
+.no-gutters {
+	margin-right: 0;
+	margin-left: 0; > . col , > [class*="col-"] { padding-right : 0;
+	padding-left: 0;
+}
+
+}
+.hamburger-menu, .fa-shopping-cart {
+	font-size: 21px;
+	color: white;
+}
+
+.header-container {
+	background-color: white;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.nav-container {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	align-items: center;
+	
+}
+
+a.nav-item.nav-link.active {
+	color: white;
+}
+
+.excel-upload {
+	color: green
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+	content: ">"
+}
+
+<-
+-Placeholder-->#loader {
+	bottom: 0;
+	height: 175px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 175px;
+	z-index: 9999;
+}
+
+#loader {
+	bottom: 0;
+	height: 175px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 175px;
+	z-index: 9999;
+}
+
+#loader .dot {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 87.5px;
+}
+
+#loader .dot::before {
+	border-radius: 100%;
+	content: "";
+	height: 87.5px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: scale(0);
+	width: 87.5px;
+}
+
+#loader .dot:nth-child(7n+1) {
+	transform: rotate(45deg);
+}
+
+#loader .dot:nth-child(7n+1)::before {
+	animation: 0.8s linear 0.1s normal none infinite running load;
+	background: #00ff80 none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+2) {
+	transform: rotate(90deg);
+}
+
+#loader .dot:nth-child(7n+2)::before {
+	animation: 0.8s linear 0.2s normal none infinite running load;
+	background: #00ffea none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+3) {
+	transform: rotate(135deg);
+}
+
+#loader .dot:nth-child(7n+3)::before {
+	animation: 0.8s linear 0.3s normal none infinite running load;
+	background: #00aaff none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+4) {
+	transform: rotate(180deg);
+}
+
+#loader .dot:nth-child(7n+4)::before {
+	animation: 0.8s linear 0.4s normal none infinite running load;
+	background: #0040ff none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+5) {
+	transform: rotate(225deg);
+}
+
+#loader .dot:nth-child(7n+5)::before {
+	animation: 0.8s linear 0.5s normal none infinite running load;
+	background: #2a00ff none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+6) {
+	transform: rotate(270deg);
+}
+
+#loader .dot:nth-child(7n+6)::before {
+	animation: 0.8s linear 0.6s normal none infinite running load;
+	background: #9500ff none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+7) {
+	transform: rotate(315deg);
+}
+
+#loader .dot:nth-child(7n+7)::before {
+	animation: 0.8s linear 0.7s normal none infinite running load;
+	background: magenta none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+8) {
+	transform: rotate(360deg);
+}
+
+#loader .dot:nth-child(7n+8)::before {
+	animation: 0.8s linear 0.8s normal none infinite running load;
+	background: #ff0095 none repeat scroll 0 0;
+}
+
+#loader .lading {
+	background-image: url("../images/loading.gif");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	bottom: -40px;
+	height: 20px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	width: 180px;
+}
+
+@
+keyframes load { 100% {
+	opacity: 0;
+	transform: scale(1);
+}
+
+}
+@
+keyframes load { 100% {
+	opacity: 0;
+	transform: scale(1);
+}
+
+}
+.validationFailBorder {
+	border: 2px solid #FF1744;
+}
+
+/*Override the style as mdbootstrap defaults the button case to upper case*/
+.btn {
+	text-transform: none;
+	font-size: 1rem;
+	box-shadow: none;
+	margin: 0;
+}
+
+.btn:hover, .btn:active {
+	box-shadow: none !important;
+}
+
+.btn:focus {
+	box-shadow: 0 0 0 2pt rgb(59, 153, 252);
+}
+
+/* link color override */
+a {
+	color: #4285f4;
+}
+
+/*To Align carrot button for md bootstrap drop icon */
+.select-wrapper span.caret {
+	right: 10px;
+	top: .63rem;
+	font-size: 1rem;
+}
+
+/* Checkboxes and Radio Buttons */
+.checkbox input[type="checkbox"] {
+	opacity: 0;
+	position: absolute;
+}
+
+.radio input[type="radio"] {
+	opacity: 0;
+	position: absolute;
+}
+
+.checkbox label, .radio label {
+	position: relative;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+.checkbox label::before, .checkbox label::after, .radio label::before,
+	.radio label::after {
+	position: absolute;
+	content: "";
+	display: inline-block;
+}
+
+.radio label::before {
+	height: 20px;
+	width: 20px;
+	border: 2px solid #D8DFE5;
+	background-color: #F2F5FA;
+	border-radius: 50%;
+	left: 0px;
+	top: 0px;
+}
+
+/*Outer box of the fake checkbox*/
+.checkbox label::before {
+	height: 20px;
+	width: 20px;
+	border: 2px solid #D8DFE5;
+	border-radius: 2px;
+	left: 0px;
+	top: 0px;
+}
+
+.radio label::after {
+	height: 12px;
+	width: 12px;
+	background-color: #455A64;
+	border-radius: 50%;
+	left: 4px;
+	top: 4px;
+}
+
+/*Checkmark of the fake checkbox*/
+.checkbox label::after {
+	height: 7px;
+	width: 12px;
+	border-left: 2px solid #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	left: 4px;
+	top: 5px;
+}
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"]+label::after, .radio input[type="radio"]+label::after
+	{
+	content: none;
+}
+
+.checkbox input[type="checkbox"]+label::before {
+	background-color: #F2F5FA;
+}
+
+.checkbox input[type="checkbox"]:checked+label::before {
+	background-color: #455A64;
+	border: 2px solid #455A64;
+}
+
+/*Unhide on the checked state*/
+.checkbox input[type="checkbox"]:checked+label::after, .radio input[type="radio"]:checked+label::after
+	{
+	content: "";
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.checkbox input[type="checkbox"]:focus+label::before {
+	box-shadow: 0 0 0 2pt #3b99fc;
+}
+
+.radio input[type="radio"]:focus+label::before {
+	box-shadow: 0 0 0 2pt #3b99fc;
+}
+
+.checkbox-label::before, .radio-label::before, .radio-label::after {
+	transition: 100ms ease-out;
+}
+
+.checkbox-label:active::before {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.radio-label:active::before, .radio-label:active::after {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.alert-genalpha {
+	background-color: #D3E9FC
+}
+
+/* to be reviewed and updated, just a place holder*/
+a.ga-dropdown-item {
+	display: block;
+	padding: 12px 20px;
+	color: #4A90E2;
+	transition: 75ms ease-out;
+	font-weight: 400;
+}
+
+.dropdown-menu.show {
+	min-width: 250px;
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight: 400;
+	border: none;
+	box-shadow: 0 4px 9px 6px rgba(176, 192, 237, .3);
+	border-radius: 2px;
+}
+
+a.ga-dropdown-item:hover {
+	background-color: #F2F5FA;
+	color: #376FB0;
+}
+
+.language {
+	color: #4A4A4A;
+	background-color: #F2F5FA;
+	border: 1px solid #e6eaef;
+}

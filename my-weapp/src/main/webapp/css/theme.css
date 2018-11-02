@@ -1,0 +1,163 @@
+/*  
+@Primary color: #283d47
+@Secondary color: #f7ac17
+@Third color: #6c8081
+*/
+
+/*  Primary Background Begin */
+.navbar,.btnLogin,#exportpdf,.myacc .glyphicon-floppy-save,.btn-addtocart,.btnBlue,.green-button,.imageContentRightPart a.iconRoundBlue,a.success-close-button,.modal.checkout_popup .modal-header.custom-modal-header,#btn_filter,.submit-button,.navbar.navbar-static, div#quickSearchDiv button#quickSearchAdd,body a.green-button,body button.green-button,.myacc .save-button,.myacc .glyphicon-floppy-save,body .custom-modal-header,#page>.header,#exportpdf,#shiptoTable .modal-header,.modal-header,.btn-addtocart, .btnBlue,.custom-modal-header,.configurator-modal-header,.new-config-button:hover,div#quickSearchDiv button#quickSearchAdd,#btn_folder, .differentViews a.active,.export_btn,.dataapplication-details .modal-header,#orgTab ul.tab,#btn_filter_SFP,.guestbutton,.alert-warning,.alert-warning .close,.btn-save,#shiptoTable .modal-header,nav#menu, div.user-popup, div.user-popup1, #order-list thead, #quote-list thead, #parts-table thead, .item > div#overlay, .cmb-divisions-dpdown, .open > .dropdown-toggle.cmb-divisions-dpdown, .open > .dropdown-toggle.machine-searchall-dpdown, .open > .dropdown-toggle.searchall-dpdown, ul.dropdown-menu>li>a:hover, #headingOne,#dropdown .activeSearch,.differentViews a, .machine-searchall-dpdown, thead, .nav-pills.nav-justified > li > a{
+  background-color: #283d47;
+}
+
+.btn-buynow.cart-small, .quick-search-hldr,.searchall-dpdown, .search_icon, .spinner-control a.item-decrement, .spinner-control a.item-increment, #buynow-click, .btn-addtocart.add, a.help-button, .loginbutton, .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover,.pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover, .dataTables_scrollHead, .modal-footer a.btn, .attach-file-section label, input[type="file"] + label, a.blue-button, nav#menu, ul.tab, .shipToEdit button {
+  background-color: #283d47;
+}
+/*  Primary Background End */
+
+
+/*  Primary Color Begin */
+.header-links span,span.badge,ul.breadcrumb li.active,body #headerName,#treeShopforParts.treeview-hldr .jstree-anchor.jstree-clicked,#treeMediaDocuments .jstree-anchor.jstree-clicked,.shopping-cart,body .fa.fa-star.fav-item,body .subFilters span.glyphicon,body .vehicleshldr .search-parts-template h4 span,body .vehicleshldr .search-parts-template .fav-btn,body .vehicleshldr .search-parts-template .close-btn,.whereusedBox h4 a,.machine-details h4,.fav-item,.non-tab-link,.non-tab-link,.steel label,.allResultTabs .active a,.header-links a,.breadcrumb>.active,span.badge,a.drawBtn,#headerName,.vehicleshldr .search-parts-template h4 span,.machineTitle h4,.machineTitle h4 span,.allResultTabs .active a,.vehicleshldr .search-parts-template .fav-btn,.vehicleshldr .search-parts-template .close-btn,.shopping-cart,.delete-item,.remove,.delete-item_new{
+	color: #283d47;
+}
+/*  Primary Color End */
+
+/*  Primary Border Begin */
+.btn-primary.active,.btn-primary.focus,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.dropdown-toggle.btn-primary,.theme-maroon:hover,.theme-maroon,body .addReference-box .btn-primary,.btn-success,.dataapplication-details a.btn-success,.dataapplication-details a.btn-success:hover,table tbody a.btn,table tbody a.btn:hover,.btn-pay,.btn-save,.btn-pay:hover,.btn-pay:focus,btn-save:hover,.btn-save:focus {
+  background-color: #283d47; 
+}
+
+.upsell-item:hover,.select_brand:active,.select_brand:hover{
+  border: 1px solid #283d47;
+}
+
+/* Background & Border-Bottom */
+.main-menu,
+.header-bar {
+  background-color: #283d47;
+  border-bottom: 1px solid #4b60bc;
+}
+/* Background & Border-Bottom */
+
+footer {
+  border-top: 3px solid #283d47;
+  background-color: #283d47;
+}
+.sampleBody header {
+  border-bottom: 5px solid #283d47;
+}
+.catalogweb-hldr .header {
+  background: #283d47;
+  background: linear-gradient(#283d47, #283d47);
+}
+/*  Primary Border End */
+
+
+
+/*  Secondary Background Begin */
+.btn-buynow.cart-small:hover,.btn-addtocart.add:hover,.nav > li > a:focus,.checkout-footer .btn:hover, .btn-addtocart.add:hover, .nav > li > a:hover,.nav > li > a:active, .navbar-nav li.active, a.blue-button:hover, body a.green-button:hover, body .btn-addtocart.add:hover, .shipToEdit button:hover, .profile-tabs.nav-pills>li>a:hover, .profile-tabs.nav-pills>li.active>a, .profile-tabs.nav-pills>li.active>a:hover,.profile-tabs.nav-pills>li.active>a:focus,.nav-pills.nav-justified>li>a:hover,.nav-pills.nav-justified>li.active>a,.nav-pills.nav-justified>li.active>a:hover,.nav-pills.nav-justified>li.active>a:focus,.differentViews a:hover, .timeline li.indicator span.success,
+.timeline li.divider span.success, .spinner-control a.item-decrement:hover, .spinner-control a.item-increment:hover, a.help-button:hover,.cd-top{
+	background-color: #f7ac17;
+}
+.btn-addtocart:hover, .btn-addtocart:focus, a.green-button, button.green-button:hover, .machine-searchall-dpdown:hover,
+.cmb-divisions-dpdown:hover, .cmb-divisions-dpdown:active, label.attach-file:hover, .modal-footer a.btn:hover, ul.tab li.active a, ul.tab li a:hover{
+  background-color: #f7ac17;
+}
+
+/*  Secondary Background End */
+
+/*  Secondary Color Begin */
+.no-fav-item:hover, .allResultTabs a:hover, .header-links a:hover, .header-links a:focus, .header-links a:active,.wrapDetail label a{
+	color: #f7ac17;
+}
+
+ .overlay-footer, #gridOrList a span.glyphicon-th-large, #gridOrList a span.glyphicon-th-list {
+  color: #f7ac17;
+}
+ 
+/*  Secondary Color End */
+
+/*  Secondary Border Begin */
+
+/*  Secondary Border End */
+
+
+/*  Third Background Begin */
+body a.green-button:before,body button.green-button::before, .btn-success.active, .btn-success.focus, .btn-success:active, .btn-success:focus,
+.btn-success:hover, .open > .dropdown-toggle.btn-success, .imageContentRightPart a.iconRoundBlue:hover {
+  background-color: #6c8081;
+}
+
+#loginUser.green-button:before, .searchall-dpdown:hover, .search_icon:active, .search_icon:hover, .search_icon:focus, .machine-searchall-dpdown:hover {
+  background-color: #6c8081;
+}
+
+a.next.green-button:before, button.next.green-button:before, a.prev.green-button:before, a.next.grey-button:before, a.prev.grey-button:before,
+div.resultin-table button:before, a.green-button::before, input[type="file"] + label:before {
+  background-color: #6c8081;
+}
+
+/*  Third Background End */
+
+/*  Third Color Begin */
+#headerLink a, a {
+  color: #6c8081;
+}
+.header-links a:hover, .header-links a:focus, .header-links a:active{
+  color: #6c8081;
+}
+/*  Third Color End */
+
+/*  Third Border Begin */
+
+/*  Third Border End */
+
+
+
+/*  White Background Begin */
+
+header {
+  background-color: #ffffff;
+}
+.nav li {
+  border-left: 1px solid #ffffff;
+}
+.main-menu nav ul li {
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+}
+.footer-menu-list > li > a,
+.quick-links-list > li > a {
+  color: #fff;
+}
+
+#headingOne, .dataTables_scrollHead, .modal-footer a.btn, .theme-maroon {
+	color: #fff;
+}
+
+
+/*  White Background End */
+
+
+
+/* Others */
+
+div.user-popup::before, div.user-popup1::before {
+  border-bottom: 20px solid #283d47 ;
+}
+
+g {
+  color: blue;
+}
+svg {
+  fill: inherit;
+}
+.spinner-control a.item-increment {
+  border-bottom: 1px solid #eeeeee;
+}
+.data_tables_title {
+  background: linear-gradient(#283d47, #333333);
+}
+
+.overlay-footer a{
+	color: yellow;
+}
