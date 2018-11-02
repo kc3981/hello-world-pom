@@ -14,6 +14,24 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <scm>
+    <url>scm:git:git@github.com:kc3981/hello-world-pom.git</url>
+    <connection>scm:git:git://github.com:kc3981/hello-world-pom.git</connection>
+    <developerConnection>scm:git:git@github.com:kc3981/hello-world-pom.git</developerConnection>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <url>http://nexus.genalpha.com:8081/repository/maven-releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://nexus.genalpha.com:8081/repository/maven-snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
