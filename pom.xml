@@ -22,12 +22,11 @@
 
   <distributionManagement>
     <repository>
-      <id>nexus</id>
+      <id>nexus-releases</id>
       <url>http://nexus.genalpha.com:8081/repository/maven-releases</url>
     </repository>
     <snapshotRepository>
-      <id>nexus</id>
-      <name>Snapshot</name>
+      <id>nexus-snapshots</id>
       <url>http://nexus.genalpha.com:8081/repository/maven-snapshots</url>
     </snapshotRepository>
   </distributionManagement>
@@ -44,17 +43,16 @@
   	<module>my-app</module>
   	<module>my-weapp</module>
   </modules>
-  
 
-
-<build>  <pluginManagement>
-
-<plugins>
-  <plugin>
-    <groupId>org.sonarsource.scanner.maven</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>3.4.0.905</version>
-  </plugin>
-</plugins>   </pluginManagement>
-</build>
+  <build>  
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>3.4.0.905</version>
+        </plugin>
+      </plugins>   
+    </pluginManagement>
+  </build>
 </project>

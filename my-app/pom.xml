@@ -5,11 +5,11 @@
   <parent>
     <groupId>com.cooldip</groupId>
     <artifactId>hello-world-pom</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.10</version>
   </parent>
   <groupId>com.cooldip</groupId>
   <artifactId>my-app</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.10</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <properties>
