@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.cooldip</groupId>
   <artifactId>hello-world-pom</artifactId>
-  <version>0.11.1-SNAPSHOT</version>
+  <version>0.11.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>hello-world-pom</name>
@@ -18,6 +17,7 @@
     <url>scm:git:git@github.com:kc3981/hello-world-pom.git</url>
     <connection>scm:git:git://github.com:kc3981/hello-world-pom.git</connection>
     <developerConnection>scm:git:git@github.com:kc3981/hello-world-pom.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
