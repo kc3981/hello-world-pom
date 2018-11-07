@@ -3,7 +3,7 @@
 
   <groupId>com.cooldip</groupId>
   <artifactId>hello-world-pom</artifactId>
-  <version>0.11.4-SNAPSHOT</version>
+  <version>0.11.4</version>
   <packaging>pom</packaging>
 
   <name>hello-world-pom</name>
@@ -17,7 +17,7 @@
     <url>scm:git:git@github.com:kc3981/hello-world-pom.git</url>
     <connection>scm:git:git://github.com:kc3981/hello-world-pom.git</connection>
     <developerConnection>scm:git:git@github.com:kc3981/hello-world-pom.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>hello-world-pom-0.11.4</tag>
   </scm>
 
   <distributionManagement>
